@@ -4,81 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/icons/icon.png" type="image/x-icon">
-    <title>Lucas Costa - Portifolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lucas Costa - Portifólio Web</title>
 </head>
+<body>
 
-    <!--Cabeçalho com menu-->
+    <!-- Cabeçalho -->
     <header>
         <nav id="main-nav">
             <ul>
-                <li><a href="#header">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#sobre-mim">Sobre mim</a></li>
-                <!-- <li><a href="#portfolio">Portfólio</a></li> -->
-                <li><a href="#carreira">Certificados</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#carreira">Carreira</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        
-        <!--Foto e nome-->
-        <div id="header">
-            <div>
-                <img class="foto" src="./assets/icons/gojo.jpg" alt="Satoru GojoKKJKJ">
-            </div>
-            <h1>Lucas Costa Dos Santos</h1>
-        </div>
-
+        <h1 id="titulo">Portfólio Lucas Costa</h1>
     </header>
-    
-    <body>
-    <!--Seções da página-->
+
+    <!-- Seção Home -->
+    <section id="home">
+        <div>
+        <h2>Hello World!</h2>
+        <h3>Eu sou Lucas, Desenvolvedor Web front-end.</h3>
+        </div>
+        <img class="foto" src="./assets/icons/gojo.jpg" alt="Foto Lucas">
+    </section>
+
+    <!-- Seção Sobre Mim -->
     <section id="sobre-mim">
         <h2>Sobre mim</h2>
-        <p>Sou um jovem profissional procurando oportunidade na área de tecnologia. Sempre tive uma certa afinidade com objetos eletronicos como desmontar e montar circuitos, algumas placas e pecinhas eletronicas.
-            <br> Aprimorar minhas habilidades e adquirir mais experiência e conhecimento são o que me motiva, além disso tenho excelência em atendimento ao cliente e suporte como gestor técnico.
-        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <img class="imagem1" src="./assets/imagem1.png" alt="Imagem sobre mim">
     </section>
 
-    <!--<section id="portfolio">
-        <h2>Portifólio</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-item">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img class="cert" src="./assets/cert1.png" alt="Certificado 1">
+        </div>
     </section>
--->
 
+    <!-- Seção Carreira -->
     <section id="carreira">
         <h2>Certificados</h2>
-        <ul>
-            <li>
-                <a href="https://app.rocketseat.com.br/certificates/50e78df3-7e15-4f45-b71e-7e89b6799f22"target="_blank">Trilha Conectar</a> <br>
-                <a href="https://app.rocketseat.com.br/certificates/0fb99f95-5b6d-4a30-8c6e-a84546c0b0dd"target="_blank">NLW Journey - Python</a> <br>
-                <a href="https://www.udemy.com/certificate/UC-bdeea46e-094d-49c7-b005-82a66788e914/" target="_blank">Programação Orientada a Objetos em JAVA</a>
-            </li>
-        </ul>
-
+        <div class="certificados">
+            <img src="./assets/cert1.png" alt="Certificado 1">
+            <img src="./assets/cert2.png" alt="Certificado 2">
+            <img src="./assets/cert3.png" alt="Certificado 3">
+        </div>
     </section>
 
+    <!-- Seção Contato -->
     <section id="contato">
         <h2>Contato</h2>
-        <ul>
-            
-            <li>LinkedIn: <a href="https://br.linkedin.com/in/lucascostadossantos" target="_blank">Lucas Costa</a></li>
-            <li>GitHub: <a href="https://github.com/costadossantoslucas" target="_blank">GitHub Lucas</a></li>
-        </ul>
+        <div class="contato">
+            <a href="https://github.com/" target="_blank">
+                <img src="./assets/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./assets/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="./assets/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
     </section>
 
-    <section>
-        <h2>Onde me encontrar ?</h2>
-        <p>Você pode me encontrar na FAESA no periodo noturno.</p>
+    <!-- Seção Mapa -->
+    <section id="mapa">
+        <h2>Onde me encontrar?</h2>
+        <div class="mapa">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.7422530464974!2d-40.317003924762716!3d-20.31093308116482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83d795ed25e97%3A0xe9dc9ffed3b11775!2sFAESA%20%7C%20Centro%20Universit%C3%A1rio%20-%20Campus%20Vit%C3%B3ria!5e0!3m2!1spt-BR!2sbr!4v1724774761190!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.7422530464974!2d-40.317003924762716!3d-20.31093308116482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83d795ed25e97%3A0xe9dc9ffed3b11775!2sFAESA%20%7C%20Centro%20Universit%C3%A1rio%20-%20Campus%20Vit%C3%B3ria!5e0!3m2!1spt-BR!2sbr!4v1724774761190!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"> </iframe>
 
+        </div>
     </section>
 
-    </body>
+    <div id="topo" onclick="voltarAoTopo()">↑</div>
 
-    <!--Rodapé-->
+
+    <!-- Rodapé -->
     <footer>
-        <p> &copy; 2024 Lucas Costa dos Santos. Todos os direitos reservados.</p>
+        <p>&copy; Desenvolvido por Lucas Costa<br>
+        Todos os direitos reservados.</p>
     </footer>
 
-    <!--Fim da página-->
+    <!-- JavaScript -->
+    <script src="./assets/js/script.js"></script>
+    
+   
+
+</body>
 </html>

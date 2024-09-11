@@ -1,0 +1,154 @@
+/* Suavizar rolagem ao clicar em links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo geral */
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E1E1E;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    position: fixed; /* Torna o cabeçalho fixo */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique por cima do conteúdo */
+}
+
+header h1 {
+    color: #BB86FC;
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px 20px 20px; /* Ajusta o padding para evitar sobreposição com o cabeçalho */
+}
+
+#home div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#home img {
+    max-width: 500px;
+    border-radius: 50%;
+}
+
+/* Navegação */
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+#main-nav ul li {
+    margin-right: 15px;
+}
+
+#main-nav ul li a {
+    color: #BB86FC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main-nav ul li a:hover {
+    color: #03DAC6;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    color: #BB86FC;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #E0E0E0;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* Imagens */
+.foto {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #BB86FC;
+    object-fit: cover;
+}
+
+.imagem1, .cert {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.certificados img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.contato img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+/* Botão voltar ao topo */
+#topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #BB86FC;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    display: none; /* Inicia invisível */
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#topo:hover {
+    background-color: #03DAC6;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    margin-top: 40px;
+}
