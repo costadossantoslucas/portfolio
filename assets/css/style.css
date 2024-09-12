@@ -101,19 +101,26 @@ section p {
     object-fit: cover;
 }
 
-.imagem1, .cert {
-    width: 100%;
+#minhafoto {
     max-width: 300px;
-    margin: 10px 0;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    flex: 1; /* A imagem ocupará 50% do espaço */
 }
 
+
+
+
 .certificados img {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: 300px;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 12px;
+    
+}
+
+#certificados{
+    text-align: center;
 }
 
 .contato img {
