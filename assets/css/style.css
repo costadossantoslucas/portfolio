@@ -6,7 +6,8 @@ html {
 
 /* Estilo geral */
 body {
-    background-image: url('./fundo.jpg'); /* Caminho da imagem */
+    background-image: url("https://img.freepik.com/vetores-gratis/borda-de-neon-synthwave-em-um-vetor-de-modelo-de-banner-de-blog-roxo-escuro_53876-136308.jpg?t=st=1726491177~exp=1726494777~hmac=9e641fb1537da73299294a0ef9fd8e57e2beb31a48a18f63d158955791898da4&w=1060");
+    /* background-color: rgb(53, 50, 54); */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -125,7 +126,6 @@ section p {
     font-size: 1em;
     line-height: 1.5em;
 }
-
 /* Imagens */
 .foto {
     width: 350px;
@@ -192,22 +192,11 @@ footer {
     margin-top: 40px;
 }
 
-#sobre-mim {
+
+.sobre-mim{
     text-align: center;
-    padding: 20px;
 }
 
-.conteudo-sobre-mim {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Espaço entre o iframe e a imagem */
-}
-
-#spotify-player {
-    flex: 1; /* Deixa o iframe proporcional à imagem */
-    max-width: 300px; /* Define o tamanho máximo do iframe */
-}
 
 #minhafoto {
     flex: 1;
