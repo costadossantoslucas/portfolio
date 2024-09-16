@@ -1,5 +1,4 @@
-/* Suavizar rolagem ao clicar em links */
-html {
+* {
     scroll-behavior: smooth;
     
 }
@@ -7,7 +6,6 @@ html {
 /* Estilo geral */
 body {
     background-image: url("https://img.freepik.com/vetores-gratis/borda-de-neon-synthwave-em-um-vetor-de-modelo-de-banner-de-blog-roxo-escuro_53876-136308.jpg?t=st=1726491177~exp=1726494777~hmac=9e641fb1537da73299294a0ef9fd8e57e2beb31a48a18f63d158955791898da4&w=1060");
-    /* background-color: rgb(53, 50, 54); */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -29,136 +27,15 @@ header {
     z-index: 1000; /* Garante que o cabeçalho fique por cima do conteúdo */
 }
 
-#titulo {
-    color: #BB86FC;
-    padding-top: 68px;
-    margin: 0;
-    text-align: center;
-}
 
-#home {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px 20px 20px 20px; /* Ajusta o padding para evitar sobreposição com o cabeçalho */
-}
 
-#home div {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
 
-#home img {
-    max-width: 500px;
-    border-radius: 50%;
-}
 
-/* Navegação */
-#main-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: left;
-    position: relative;
-}
-
-#atalho {
-    padding: 5px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin: 10px;
-}
-
-#atalho img {
-    width: 30px;
-    height: 30px; 
-    margin-top: -5px;
-    margin-bottom: auto;
-}
-
-#contato img {
-    width: 100px;
-    height: auto; 
-    margin-top: -5px;
-    margin-bottom: auto;
-}
-
-#contato{
-    text-align: center;
-}
-
-#main-nav ul li {
-    margin-right: 30px;
-}
-
-#main-nav ul li a {
-    color: #BB86FC;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#main-nav ul li a:hover {
-    color: #03DAC6;
-}
 
 /* Seções */
-section {
-    background-color: rgba(0, 0, 0, 0.0);
-    color: white;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 10px;
-    width: 80%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
-section h2 {
-    color: #BB86FC;
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-section p {
-    color: #E0E0E0;
-    font-size: 1em;
-    line-height: 1.5em;
-}
 /* Imagens */
-.foto {
-    width: 350px;
-    height: auto;
-    border-radius: 50%;
-    border: 3px solid #BB86FC;
-    object-fit: cover;
-}
 
-#minhafoto {
-    max-width: 300px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    flex: 1; /* A imagem ocupará 50% do espaço */
-}
-
-.certificados img {
-    width: auto;
-    height: 300px;
-    margin: 5px;
-    border-radius: 12px;
-    
-}
-
-#certificados{
-    text-align: center;
-}
-
-.contato img {
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-}
 
 /* Botão voltar ao topo */
 #topo {
@@ -192,22 +69,6 @@ footer {
     margin-top: 40px;
 }
 
-
-#sobre-mim{
-    text-align: center;
-}
-
-
-#minhafoto {
-    flex: 1;
-    max-width: 263px; /* Ajuste o tamanho da imagem */
-    object-fit: cover;
-}
-
 #mapa{
-    text-align: center;
-}
-
-#portifolio{
     text-align: center;
 }
