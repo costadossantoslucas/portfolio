@@ -1,0 +1,31 @@
+/* Seção global */
+section {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+}
+
+section h2 {
+    color: #BB86FC;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #E0E0E0;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* Icones do CONTATO */
+
+#contato img {
+    width: 100px;
+    height: auto; 
+    margin-top: -5px;
+    margin-bottom: auto;
+}

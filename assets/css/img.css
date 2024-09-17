@@ -1,0 +1,22 @@
+/* Imagens */
+.foto {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #BB86FC;
+    object-fit: cover;
+}
+/* Icone Contatos */
+.contato img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+/* Imagem Certificado */
+.certificados img {
+    width: auto;
+    height: 300px;
+    margin: 5px;
+    border-radius: 12px;
+}
