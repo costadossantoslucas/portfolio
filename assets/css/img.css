@@ -1,11 +1,13 @@
 /* Imagens */
 .foto {
+    max-width: 100%;
     width: 350px;
     height: auto;
     border-radius: 50%;
     border: 3px solid #BB86FC;
     object-fit: cover;
 }
+
 /* Icone Contatos */
 .contato img {
     width: 40px;
@@ -15,6 +17,7 @@
 
 /* Imagem Certificado */
 .certificados img {
+    max-width: 100%;
     width: auto;
     height: 260px;
     margin: 5px;
@@ -23,8 +26,8 @@
 }
 
 .certificado:hover {
-    transform: scale(1.05); /* Amplia a imagem levemente quando o mouse passa por cima */
-    cursor: pointer; /* Mostra um cursor de "mão" para indicar que é clicável */
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 /* template */

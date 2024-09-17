@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 20px 20px 20px; /* Ajusta o padding para evitar sobreposição com o cabeçalho */
+    padding: 100px 20px 20px 20px;
 }
 
 #home div {
@@ -45,6 +45,7 @@
 }
 
 #main-nav ul li a:hover {
+    transition: color 0.3s ease;
     color: #03DAC6;
 }
 
