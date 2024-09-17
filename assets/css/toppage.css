@@ -34,6 +34,20 @@
     position: relative;
 }
 
+#main-nav ul li {
+    margin-right: 30px;
+}
+
+#main-nav ul li a {
+    color: #BB86FC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main-nav ul li a:hover {
+    color: #03DAC6;
+}
+
 #atalho {
     padding: 5px;
     position: fixed;
@@ -47,19 +61,4 @@
     height: 30px; 
     margin-top: -5px;
     margin-bottom: auto;
-}
-
-
-#main-nav ul li {
-    margin-right: 30px;
-}
-
-#main-nav ul li a {
-    color: #BB86FC;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#main-nav ul li a:hover {
-    color: #03DAC6;
 }
