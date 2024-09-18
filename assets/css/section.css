@@ -25,9 +25,10 @@ section p {
 
 #contato img {
     width: 100px;
-    height: auto; 
+    height: auto;
     margin-top: -5px;
     margin-bottom: auto;
+    
 }
 
 #contato img:hover {

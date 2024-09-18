@@ -1,4 +1,4 @@
-/* Imagens */
+/* Foto perfil */
 .foto {
     max-width: 100%;
     width: 350px;
@@ -10,16 +10,18 @@
 
 /* Icone Contatos */
 .contato img {
-    width: 40px;
+    width: 100px;
     height: 40px;
     margin: 0 10px;
+    margin-top: -5px;
+    margin-bottom: auto;
 }
 
-/* Imagem Certificado */
+/* Imagens Certificado */
 .certificados img {
     max-width: 100%;
     width: auto;
-    height: 260px;
+    height: 200px;
     margin: 5px;
     border-radius: 12px;
     transition: transform 0.5s ease;
@@ -32,15 +34,15 @@
 
 /* template */
 .template {
+    max-width: 100%;
     width: auto;
     height: 300px;
     margin: 5px;
     border-radius: 12px;
-    max-width: 100%;
     transition: transform 0.5s ease;
 }
 
 .template:hover {
-    transform: scale(1.05); /* Amplia a imagem levemente quando o mouse passa por cima */
-    cursor: pointer; /* Mostra um cursor de "mão" para indicar que é clicável */
+    transform: scale(1.05); 
+    cursor: pointer;
 }
