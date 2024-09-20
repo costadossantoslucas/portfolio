@@ -22,8 +22,25 @@ Este portfólio foi projetado para ser simples, visualmente atraente e responsiv
 - **JavaScript**: Interatividade e manipulação do DOM.
 - **Spotify API**: Integração de um iframe para exibição de uma playlist.
 
+pie
+    title Tecnologias Usadas no Projeto
+    "HTML" : 40
+    "CSS" : 40
+    "JavaScript" : 20
+
+
 ## Como Visualizar o Projeto
 
 Clone este repositório:
 ```bash
 git clone https://github.com/seu-usuario/portfolio-lucas-costa.git
+
+|-- index.html
+|-- assets/
+|   |-- css/
+|       |-- style.css
+|   |-- icons/
+|       |-- icones.png
+|       |-- foto.jpeg
+|-- scripts.js
+
