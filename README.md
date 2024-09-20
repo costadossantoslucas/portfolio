@@ -27,13 +27,3 @@ pie
   "HTML" : 40
   "CSS" : 40
   "JavaScript" : 20
-
-
-## Como Visualizar o Projeto
-
-Clone este repositório:
-```bash
-git clone https://github.com/seu-usuario/portfolio-lucas-costa.git
-
-
-
