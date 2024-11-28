@@ -1,0 +1,48 @@
+/* Foto perfil */
+.foto {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #BB86FC;
+    object-fit: cover;
+}
+
+/* Icone Contatos */
+.contato img {
+    width: 100px;
+    height: 40px;
+    margin: 0 10px;
+    margin-top: -5px;
+    margin-bottom: auto;
+}
+
+/* Imagens Certificado */
+.certificados img {
+    max-width: 100%;
+    width: auto;
+    height: 250px;
+    margin: 5px;
+    border-radius: 12px;
+    transition: transform 0.5s ease;
+}
+
+.certificado:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* template */
+.template {
+    max-width: 100%;
+    width: auto;
+    height: 300px;
+    margin: 5px;
+    border-radius: 12px;
+    transition: transform 0.5s ease;
+}
+
+.template:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
